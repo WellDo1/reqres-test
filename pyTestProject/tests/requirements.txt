@@ -1,0 +1,4 @@
+pytest
+requests
+pip==23.0.1
+
