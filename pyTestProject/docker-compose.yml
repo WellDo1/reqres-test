@@ -1,0 +1,9 @@
+version: "1"
+
+services:
+   reqres_test_runner:
+    build: .
+    image:  reqres_pytest_runner
+    container_name: reqres_pytest_runner_w
+    volumes:
+      - . :/test_projects/
